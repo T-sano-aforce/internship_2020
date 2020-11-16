@@ -1,0 +1,38 @@
+th{
+color:green;
+background-color:palegreen;
+text-align:center;
+}
+.number {
+	text-align:right;
+}
+.language{
+	text-align:left;
+}
+td.image img{
+	width:50px;
+}
+.font_test{
+	color:red;
+}
+table{display:inline;}
+table{vertical-align:bottom;}
+
+div form{
+	width:640px;
+	margin-right:auto;
+	margin-left:auto;
+}
+.test{
+	border-radius:8%;
+	padding: 10px 12px;
+	text-align:center;
+	background:#007DC5;
+	color:#ffffff;
+	border-color:#007DC5
+}
+div form{
+	width:640px;
+	margin-right:auto;
+	margin-left:auto;
+}
