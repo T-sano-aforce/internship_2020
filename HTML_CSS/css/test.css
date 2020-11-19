@@ -1,4 +1,7 @@
-th{
+table{
+	border-collapse:collapse;
+}
+th {
    color:green;
    background-color:palegreen;
    text-align:center;
@@ -15,40 +18,36 @@ td.image img{
 .font_test{
 	color:red;
 }
-.suuji{
+.number{
 	text-align:right;
 }
-table{display:inline-block;}
-table{vertical-align:bottom;}
+table{
+	display:inline-block;
+    vertical-align:bottom;
+}
 
 label{
 	display:inline-block;
-	width:140px;
-	text-align:right;
+	width:70px;
+	text-align:rigth;
 }
+
+
 input.hoge{
 	width:400px;
 }
-div{
-	text-align:center;
+.box{
+	margin:0 auto;
+	width:800px
 }
-.box{margin-right: auto;
- 	 margin-left:auto;
-	 width: 150px;
- 	 height: 150px;
-	 padding: 10px;
-	 display: inline-block;
+div{margin:0 auto;
+	 width: 640px;
+ 	 height: 50px;
+	 padding: 5px;
+	 text-align:center;
 }
 fieldset{border-radius:5px;}
-div form{
-	width:640px;
-	margin-right:auto;
-	margin-left:auto;
-}
-.box{
-	margin:10px auto;
-	width:100px;
-}
+
 .test{
 	border-radius:8%;
 	padding: 10px 12px;
@@ -56,9 +55,4 @@ div form{
 	background:#007DC5;
 	color:#ffffff;
 	border-color:#007DC5
-}
-div form{
-	width:640px;
-	margin-right:auto;
-	margin-left:auto;
 }
