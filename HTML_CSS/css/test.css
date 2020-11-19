@@ -1,0 +1,58 @@
+table{
+	border-collapse:collapse;
+}
+th {
+   color:green;
+   background-color:palegreen;
+   text-align:center;
+}
+.number {
+	text-align:right;
+}
+.language{
+	text-align:left;
+}
+td.image img{
+	width:50px;
+}
+.font_test{
+	color:red;
+}
+.number{
+	text-align:right;
+}
+table{
+	display:inline-block;
+    vertical-align:bottom;
+}
+
+label{
+	display:inline-block;
+	width:70px;
+	text-align:rigth;
+}
+
+
+input.hoge{
+	width:400px;
+}
+.box{
+	margin:0 auto;
+	width:800px
+}
+div{margin:0 auto;
+	 width: 640px;
+ 	 height: 50px;
+	 padding: 5px;
+	 text-align:center;
+}
+fieldset{border-radius:5px;}
+
+.test{
+	border-radius:8%;
+	padding: 10px 12px;
+	text-align:center;
+	background:#007DC5;
+	color:#ffffff;
+	border-color:#007DC5
+}
