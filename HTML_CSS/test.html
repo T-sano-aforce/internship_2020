@@ -85,12 +85,12 @@
  <fieldset>
  <form>
 	<label for="name">Name:</label>
-	<input type="text" value=""placeholder="Your Name" size="30" class="hoge" required ><br>
+	<input type="text" value="" placeholder="Your Name" size="30" class="hoge" required ><br>
 	<label for="mail">E-mail:</label>
-	<input type="email" value=""placeholder="sample@xxx.com"pattern="sample@xxx.com" size="30" maxlengh="50" class="hoge" required ><br>
+	<input type="email" value="" name="email01" placeholder="sample@xxx.com" pattern="^[a-zA-Z0-9!$&*.=^`|~#%'+\/?_{}-]+@([a-zA-Z0-9_-]+\.)+[a-zA-Z]{2,4}$" title="sample@xxx.comの形式で入力してください" size="30" maxlengh="50" class="hoge" required ><br>
 	<label for="msg">Message:</label>
 	<textarea id="message-body" placeholder="Please enter your Question" cols="55" rows="15" class="hoge"></textarea>
-	<div><input type="submit"value="submit"class="submit"></div>
+	<div><input type="submit" value="submit" class="submit"></div>
     </div>
  </form>
  </fieldset>
