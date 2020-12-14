@@ -1,65 +1,83 @@
-ul,li{
-	list-style:none;
-	color:#ffffff;
-	margin:0;
-	padding:0;
-	text-align:center;
-	height:60px;
-	line-height:60px;
+.dropdown{
+    max-width:600px;
+    display: flex;
+
 }
-.nav_wrapper {
-  width:600px;
-  background-color: #006400;
-  margin:left;
-  margin-bottom: 150px
+
+ul{
+    text-align: center;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    color: #ffffff;
 }
-.menu {
-  width: 600px;
-  margin: 0 auto;
-  height: 50px;
+li{
+	max-width: calc(1200px/5);
+    position: relative;
+    padding: 5px;
+    display: block;
+	cursor: pointer;
 }
-.menu > li {
-  width:200px;
-  float: left;
-  position: relative;
+
+.dropdown>li{
+    width:600px;
+    margin: 0px;
+    background: #006400;
+    display: inline;
 }
-.menu > li span {
-  display: block;
-  width: 159px;
-  padding: 0 20px;
-  height: 50px;
-  font-size: 1rem;
-  line-height: 50px;
-  text-align: center;
-  transition: all 0.2s;
-}
-.menu > li:first-child span {
-  width: 158px;
-}
-.menu > li:hover span {
-  background-color: #228b22;
-}
+
 .dropdown_menu{
-  position: absolute;
-  left: 0;
-  top: 50px;
-  width: 100px;
-  display: none;
-  z-index: 1;
+    width: 100%;
+    display: none;
+    position: absolute;
+    margin-left: -5px;
+    margin-top: 5px;
+    padding: 0;
+    background:#006400;
 }
-.dropdown_menu li a {
-  display: block;
-  height: 30px;
-  padding: 0 20px;
-  font-size: 1.2rem;
-  line-height: 30px;
-  background-color: #fbf8f1;
-  border-bottom: 1px solid #e9e4d9;
-  transition: all 0.2s;
+
+.dropdown_menu li{
+    width: 100%;
 }
-.dropdown_menu li:last-child a {
-  border: none;
+
+.dropdown_menu li a{
+    padding: 5px 0;
+    margin: -5px 5px -5px -5px;
+    display: block;
+    color: #ffffff;
+
+
+
 }
-.dropdown_menu li a:hover {
-  background-color: #feecc4;
+
+li a:hover{
+
+    background:#228b22;
+    color:#ffffff
+
+}
+
+
+.viewer{
+position:relative;
+
+}
+.viewer li{
+position:absolute;
+top:0;
+left:0;
+
+}
+
+.viewer li img{
+width:500px;
+height:300px;
+
+
+}
+.viewer li span{
+position:absolute;
+bottom:10px;
+right:-200px;
+color:#ffffff;
 }
