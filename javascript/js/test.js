@@ -1,24 +1,27 @@
-let element=document.getElementById("star");
-let star_html='<span>★</span>'
-for(let i=0;i<2;i++){
-	element.insertAdjacentHTML("afterbegin",star_html);
-	element.insertAdjacentHTML("beforeend",star_html);
-}
+var txt="";
+for (i=0;i<5;i++){
+	txt += "★";
+};
+document.write(txt);
 
-o002=document.getElementById('002');
-for(let i=0;i<5;i++){
-	let s='';
-for(let j=0;j<5;j++){
-	s+=(i%2+j)%2==0?'☆':'★';
-}
-console.log(s);
-o002.innerText+=s+'\n';
-}
+var txt="";
+for (i=0;i<5;i++){
+for(j=0;j<5;i++){
+	if((i+J)%2 == 0){
+		txt += "☆";
+		}else{
+			txt += "★";
+			}
+		};
+	txt += "<br>";
+};
+document.write(txt);
+
 
 	document.querySelector('#purchase').addEventListener('click',function(){
-	var result=document.querySelector('#result');
+	let result=document.querySelector('#result');
 	result.textContent="";
-	var price=0;
+	let price=0;
 
 	amount=document.querySelector('#amount').value;
 	product=document.querySelector('#product').value;
